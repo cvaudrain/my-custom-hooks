@@ -1,7 +1,7 @@
 //Original Sandbox Found at: https://codesandbox.io/s/custom-hooks-t4gs3?file=/src/Components/useLocalStorage.js:0-44
 
 import { useState, useEffect } from "react";
-// useState but holds in localstorage
+// calling useLocalStorage calls useState but also stores in localstorage
 
 //GET from localStorage- will be called in custom hook to return 1 of 3 options
 function getSavedValue(key, initialValue) {
